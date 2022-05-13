@@ -1,0 +1,75 @@
+/* Alle css die te maken heeft met de opmaak van de pagina */
+* {
+    font-family: Orbitron;
+}
+body, html{
+    height: 100%;
+    margin: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    color: #17D4FE;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: min(max(16px, 2vw), 50px);
+}
+
+.subtitel {
+    font-size: 75%;
+    margin-top: 0px;
+}
+
+.grid-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-self: center;
+        align-items: center;
+}
+
+/* Mobile first */
+.klokblok { 
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content; 
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #4F5B66;
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px 5px #17D4FE;
+    color: #fff;
+    /* minimale px, min vw, maximale px om tekst niet te groot te laten worden*/
+    font-size: min(max(30px, 4vw), 80px);
+}
+.klok {
+    color: #17D4FE;
+    font-size: 100%;
+    font-weight: 5px;
+    letter-spacing: 7px;
+}
+
+.message{
+    font-size: 50%;
+}
+
+.schedule {
+    display: flex;
+    max-width: fit-content;
+    margin: 20px;
+    padding: 10px;
+    padding-right: 20px;
+    background-color: #4F5B66;
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px 5px #17D4FE;
+    color: #fff;
+
+}
